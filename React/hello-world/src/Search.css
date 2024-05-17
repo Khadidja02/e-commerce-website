@@ -1,0 +1,56 @@
+.model-search{
+    margin-top: 50px;
+    
+}
+.modal-big{
+    height: 350px!important;
+    margin-top: 50px!important;
+    padding: 40px!important;
+    background-color: white;
+}
+.search-btn{
+    display: flex;
+    justify-content: end;
+}
+.parent-searchFirstDiv{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    border: 1px solid rgb(186, 231, 208);
+    border-radius: 5px;
+    margin-top:20px ;
+    transition: 0.25s;
+}
+.parent-searchFirstDiv:hover{
+    background-color: rgb(205, 231, 218);
+    
+
+}
+.child-searchSecondDiv{
+ max-width: 100px;
+ margin-right: 20px;
+ margin-top: 10px;
+ margin-left: 10px;
+ margin-bottom: 10px;
+ 
+ 
+}
+.searchImage{
+    width: 90;
+    height: 70px;
+}
+.child-searchThirdDiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(71 162 117);
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.10rem;
+
+}
+.linkText{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family:"Quicksand" ,sans-serif ;
+    text-transform: capitalize;
+}

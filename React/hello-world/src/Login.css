@@ -1,0 +1,74 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgb(71 162 117)!important;
+    }
+.myStyle{
+    border-radius: 1rem;
+    background-color: rgb(71 162 117)!important;
+} 
+.parent-reset{
+    height: 300px;
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+}
+.parent-log-in{
+    height: 700px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logintitle{
+    text-align: center;
+}   
+.butonns{
+    border-radius: 30px!important;
+    color: white !important;
+    background-color: rgb(71 162 117)!important;
+    border: 1px solid #e0e0e0 !important;
+    transition: 0.30s!important;
+    font-weight: 600 !important;
+    letter-spacing: 0.10rem!important;
+}
+.butonns:hover{
+    color: rgb(71 162 117)!important;
+    background-color: white!important;
+    border: 1px solid rgb(58, 138, 98)!important;
+}
+.labes{
+    text-align: start!important;
+    margin-top: 7px;
+}
+.em-pass{
+    font-family:"Quicksand" ,sans-serif !important;
+    letter-spacing: 0.08em!important;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.parent-reset-password{
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title-reset{
+    text-align: center;
+}
+.div-reset{
+    width: 40%;
+}
+.label-reset{
+    width: 70%!important;
+}
+.div-form-reset{
+    margin-top: 20px;
+    margin-left: 20%;
+}

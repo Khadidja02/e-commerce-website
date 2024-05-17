@@ -1,0 +1,99 @@
+.edit-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-family:"Quicksand" ,sans-serif ;
+    
+}
+.col-xl-8{
+    width: 80% !important;
+}
+.title-edit{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.15rem;
+}
+.label-title{
+    font-size: 12px;
+    font-weight: 550;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.10rem;
+}
+.edit-data{
+    color: rgb(51, 122, 87);
+    font-weight: 500;
+    
+    
+}
+
+.shadow-edit{
+    display: block;
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #69707a!important;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #c5ccd6;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.35rem;
+        outline: none;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+  
+  /* Shadow style when input is focused */
+  input.shadow-edit:focus {
+    box-shadow: 0 0 0 0.2rem rgba(68, 235, 149, 0.25)!important; /* New shadow color */
+    border-color: rgb(129, 219, 174) ;
+  }
+.buton-edit{
+    
+    border: 1px solid rgb(71 162 117);
+    border-radius: 30px;
+    display: flex;
+    align-items:flex-start;
+    background: white;
+    color: rgb(71 162 117);
+    font-weight: 600;
+    padding:5px 12px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+    transition: 0.25s;
+    width:auto;
+    
+}
+.buton-edit:hover{
+    background-color: rgb(71 162 117);
+    color: white;
+    border-color:white ;
+}
+.buton-edit-password{
+    border: 1px solid rgb(71 162 117);
+    border-radius: 15px;
+    display: flex;
+    align-items:flex-start;
+    background: white;
+    color: rgb(71 162 117);
+    font-weight: 600;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+    transition: 0.25s;
+    width:auto;
+    
+}
+
+.buton-edit-password:hover{
+    background-color: rgb(71 162 117);
+    color: white;
+    border-color:white ;
+}

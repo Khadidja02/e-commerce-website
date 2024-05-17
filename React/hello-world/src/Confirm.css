@@ -1,0 +1,155 @@
+.the-big-contain-confirm{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 140px;
+    height: 700px;
+}
+.ship-confirm{
+    background-color: rgb(71 162 117);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+.select-div{
+    margin-top: 15px;
+    width: 90%;
+}
+.Cart-header-select{
+    color: white;
+    font-size: 25px;
+    font-family: "Josefin Sans",sans-serif!important;
+    letter-spacing: 0.12rem!important;
+    font-weight: 700!important;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.container-Order-confirm{
+    margin-top: 50px;
+}
+.ship-confirm{
+    margin-top: 40px;
+    width: 40%;
+}
+.icon-shop-confirm{
+    width:100px!important;
+}
+.select-address{
+    
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+.apply-coupon-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    
+}
+.titles-confirm-order{
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+    margin-bottom: 5px;
+    color: white;
+}
+.btn-coupon{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid rgb(71 162 117);
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.09rem;
+    color: rgb(71 162 117);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.40s;
+}
+.btn-coupon:hover{
+    background-color: rgb(41, 122, 87);
+    border: 1px solid rgb(41, 122, 87);
+    color: white;
+}
+.input-coupon{
+    width: 90%;
+    margin-bottom: 10px;
+    font-family: "Josefin Sans",sans-serif!important;
+    font-weight: 500!important;
+    letter-spacing: 0.05rem!important;
+}
+.btn-confirm-order{
+    width: 80%;
+    margin-bottom: 10px;
+    padding-top: 7px ;
+    padding-bottom: 7px;
+    letter-spacing: 0.09rem;
+    border-radius: 18px;
+    border: 1px solid rgb(41, 122, 87);
+    background-color: rgb(41, 122, 87);
+    color: white;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 500;
+    transition: 0.40s;
+}
+.last-cells-orders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.link-confirm{
+    text-align: right;
+    font-size: 15px!important;
+    margin-top: 10px!important;
+    padding-left: 50px!important;
+}
+.btn-confirm-order:hover{
+    background-color: white;
+    color: rgb(41, 122, 87);
+
+}
+
+@media(max-width:1030px){
+
+    .the-big-contain-confirm{
+        display: flex;
+        
+        flex-direction: column!important;
+        height: auto;
+        
+    }
+    .cart-bag-containers{
+        height: auto;
+    }
+    .ship-confirm{
+        width:60%;
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+}
+@media(max-width:767px){
+    
+    .cart-bag-containers{
+        flex-wrap: wrap;
+        align-items: unset;
+        height: auto;
+    }
+}
+
+@media(max-width:716px){
+    .the-big-contain-confirm{
+        padding-left: 80px;
+    }
+    .ship-confirm{
+        width: 100%;
+        margin-left: 0;
+    }
+}

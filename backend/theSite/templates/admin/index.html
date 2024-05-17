@@ -1,0 +1,249 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div class="container-fluid py-4">
+
+      <div class="row">
+        
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="numbers">
+                            <p class="text-sm mb-0 text-capitalize font-weight-bold"> Users</p>
+                            <h5 id="clientUserCount" class="font-weight-bolder mb-0"></h5>
+                        </div>
+                    </div>
+                    <div class="col-4 text-end">
+                        <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                            <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Include Axios library -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        
+        <!-- Your JavaScript code using Axios -->
+        <script>
+            // Endpoint to fetch custom user count
+            const endpoint = '/api/custom-users/';
+        
+            // Function to update HTML content with fetched data
+            function updatedContent(data) {
+                const clientUserCount = document.getElementById('clientUserCount');
+                clientUserCount.textContent = data.client_user_count;
+            }
+        
+            // Fetch data using Axios
+            axios.get(endpoint)
+                .then(response => {
+                    const data = response.data;
+                    updatedContent(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        </script>
+        </div>
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold">New Users</p>
+                    <h5 id="newCustomCount" class="font-weight-bolder mb-0"></h5>
+                  </div>
+                </div>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                    <i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+        <!-- JavaScript code using Axios to fetch count of new custom users -->
+        <script>
+            // Endpoint to fetch count of new custom users
+            const endspoint = '/api/new-custom/';
+        
+            // Function to update HTML content with fetched data
+            function updatesContent(data) {
+                const newCustomCount = document.getElementById('newCustomCount');
+                console.log('Element:', newCustomCount); // Check if the element is correctly identified
+                newCustomCount.textContent = data.new_custom_users_count;
+                console.log('Updated content:', newCustomCount.textContent); // Check the updated content
+
+            }
+        
+            // Fetch data using Axios
+            axios.get(endspoint)
+                .then(response => {
+                    const data = response.data;
+                    updatesContent(data);
+                    console.log(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        </script>
+        <div class="col-xl-3 col-sm-6">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0 text-capitalize font-weight-bold">Orders</p>
+                    <h5 id="orderCount" class="font-weight-bolder mb-0">
+                      
+                      <span class="text-success text-sm font-weight-bolder">+5%</span>
+                    </h5>
+                  </div>
+                </div>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                    <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Include Axios library -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<!-- JavaScript code using Axios to fetch order count -->
+<script>
+    // Endpoint to fetch order count
+    const endpoints = '/api/count-orders/';
+
+    // Function to update HTML content with fetched data
+    function updateContent(data) {
+        const orderCount = document.getElementById('orderCount');
+        orderCount.textContent = data.order_count;
+    }
+
+    // Fetch data using Axios
+    axios.get(endpoints)
+        .then(response => {
+            const data = response.data;
+            updateContent(data);
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+</script>
+     <!------ <div class="row mt-4">
+      
+        <div class="col-lg-7">
+          <div class="card z-index-2">
+            <div class="card-header pb-0">
+              <h6>Orders overview</h6>
+              <p class="text-sm">
+                <i class="fa fa-arrow-up text-success"></i>
+                <span class="font-weight-bold">4% more</span> in 2021
+              </p>
+            </div>
+            <div class="card-body p-3">
+              <div class="chart">
+                <canvas id="chart-line" class="chart-canvas" height="300"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+           -->
+      <div class="row my-4 ">
+        <div class="container">
+          <!-- Table structure --> 
+          <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
+              <div class="card">
+                  <div class="card-header pb-0">
+                      <div class="row">
+                          <div class="col-lg-6 col-7">
+                              <h6>Online Users</h6>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card-body px-0 pb-2">
+                      <div class="table-responsive">
+                          <table id="activeUsersTable" class="table align-items-center mb-0">
+                              <thead>
+                                  <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                  </tr>
+                              </thead>
+                              <tbody id="activeUsersBody">
+                                  <!-- Dynamic content (table rows) will be inserted here -->
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Include Axios library -->
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
+      <!-- Your JavaScript code using Axios -->
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const endpoint = '/api/active-users/';
+
+            function displayActiveUsers(data) {
+                const activeUsersBody = document.getElementById('activeUsersBody');
+                activeUsersBody.innerHTML = '';
+
+                data.forEach(user => {
+                const row = document.createElement('tr');
+                const nameCell = document.createElement('td');
+                const emailCell = document.createElement('td');
+
+                nameCell.textContent = user.name; // Set user's name in the name cell
+                emailCell.textContent = user.email; // Set user's email in the email cell
+
+                row.appendChild(nameCell);
+                row.appendChild(emailCell);
+                activeUsersBody.appendChild(row);
+            });
+            }
+
+            axios.get(endpoint)
+                .then(response => {
+                    const data = response.data;
+                    displayActiveUsers(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching active users:', error);
+                });
+        });
+    </script>
+        
+      </div>
+            
+      </div>
+
+      {% include "includes/footer.html" %}
+
+    </div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+
+
+
+

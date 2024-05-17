@@ -1,0 +1,152 @@
+.first-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.div-parent-big-ordHist{
+    margin-left: 10px;
+    margin-right:0px;
+    width: 70%;
+    margin-bottom: 100px;
+}
+.second-card{
+    margin-left: 30px!important;
+    width: 20%!important;
+    border: none!important;
+    height: auto!important;
+   
+    
+    
+}
+.title-address{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.10rem;
+}
+.data-cart{
+    color: rgb(95, 117, 104);
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.04rem;
+}
+.label-cart{
+    color: rgb(71 162 117);
+    font-weight: 600;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.04rem;
+}
+.content-first{
+    
+    padding: 0px!important;
+    margin: 20px 20px!important;
+}
+.third-card{
+    width: 100%!important;
+}
+.big-div-add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-action-green{
+    border: 1px solid  white!important;
+    background: rgb(71 162 117)!important;
+    color: white!important;
+    font-weight: 600!important;
+    font-family:"Quicksand" ,sans-serif !important;
+    letter-spacing: 0.08em!important;
+    transition: 0.20s!important;
+    border-radius: 5px!important;
+}
+.button-action-green:hover {
+    border-color: rgb(71 162 117)!important;
+    background-color: white !important;
+    color: rgb(71 162 117) !important;
+}
+.button-action-red{
+    font-weight: 600!important;
+    font-family:"Quicksand" ,sans-serif !important;
+    letter-spacing: 0.08em!important;
+    transition: 0.20s!important;
+}
+.button-action-red:hover{
+    border: 1px solid #db2828 !important;
+    color: #db2828 !important;
+    background-color: white !important;
+}
+
+.div-orderHist-one{
+    margin-top: 17px;
+    margin-bottom: 13px;
+}
+.id-order{
+    font-family:"Quicksand" ,sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+.div-order-img{
+    width: 30%;
+    height: 100px;
+    margin-right: 8px;
+  
+    
+}
+
+.div-orderHist-one{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(124, 204, 164);
+    border-radius: 8px;
+    padding: 8px;
+}
+.date-order{
+    font-family:"Quicksand" ,sans-serif;
+    margin-bottom: 0px;
+}
+.content-order{
+    width: 90%!important;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.15);
+
+    border-radius: 8px;
+    padding: 20px!important;
+    
+    min-height: 350px;
+}
+
+
+.title-order-prod{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.price-odrer{
+    color: rgb(118, 182, 150);
+    font-size: 13px;
+}
+.img-order{
+    border-radius: 8px;
+    width:100%;
+}
+.btn-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-address{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+   
+}
+.form-input-add{
+    width:70%;
+}

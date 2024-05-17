@@ -1,0 +1,300 @@
+.cart-bag-container{
+    margin-top: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-bag-containers{
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.button-back{
+    background-color: white!important;
+    color: #47a275!important;
+    border: 1px solid #47a275!important;
+    transition: 0.25s;
+}
+.button-back:hover{
+    background-color: #47a275!important;
+    color: white !important;
+    
+
+}
+.button-checkout{
+    background-color: #47a275!important;
+    transition: 0.25s;
+    color: white !important;
+}
+.button-checkout:hover{
+    background-color: white!important;
+    color: #47a275!important;
+}
+
+.Cart-header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: "Josefin Sans",sans-serif;
+    letter-spacing: 0.12rem;
+    font-weight: 700;
+}
+.div-cells{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 8px;
+    width:180px;
+    height: 80px;
+    margin-left: 20px;
+}
+.product-cells-img{
+    width: 200px!important;
+    text-align: center;
+}
+.img-cells{
+    width:auto;
+    height: 70px;
+    border-radius: 6px;
+}
+.div-img-cells{
+    
+    height: 70px;
+    margin-right: 10px;
+}
+.text-cells{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: "Josefin Sans",sans-serif;
+    letter-spacing: 0.09rem;
+}
+.info-cells{
+    margin-top: 15px;
+}
+.total-cart-shop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.table-cart{
+    margin-left: 50px!important;
+    margin-right: 50px!important;
+    width:60%!important;
+    border-left: none!important;
+    border-right: none !important;
+
+}
+.hedaer-cell{
+    background-color: white!important;
+    text-align: center!important;
+    border-left: none!important;
+    text-transform: uppercase!important;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+
+}
+.first-cell{
+    text-transform: uppercase!important;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+    background-color: white!important;
+    padding-left: 50px!important;
+    border-left: none!important;
+
+}
+.icon-shop{
+    width: 100px!important;
+}
+.info-cels-child{
+    border-left: none!important;
+    
+
+}
+.number-cells{
+    background-color: white!important;
+    width: 70px;
+}
+.last-cells{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 25px;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+    font-size: 15px;
+
+}
+.icon-close-shop{
+    float:right;
+    cursor: pointer;
+    padding-top: 25px;
+    font-weight: 300px;
+    font-size: 13px;
+}
+.qty-cart{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family:"Quicksand" ,sans-serif ;
+    font-size: 15px;
+}
+.price-cells{
+    text-align: center;
+    padding-top: 25px;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+    font-size: 15px;
+}
+.id-cells{
+    text-align: center;
+    padding-top: 25px;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+    font-size: 17px;
+}
+.icon-cart-shop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+    width: 180px!important;
+}
+
+.footer-cells{
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+    font-size: 18px;
+    background-color: white!important;
+    border-top: none!important;
+    border-bottom: none!important;
+    border-bottom-style:none!important ;
+    height:70px;
+    margin-right:70px!important ;
+    padding-left: 30px!important;
+
+    
+}
+.button-cart-green{
+
+    font-weight: 600!important;
+    font-family:"Quicksand" ,sans-serif !important;
+    letter-spacing: 0.08em!important;
+    transition: 0.20s!important;
+    border-radius: 50px;
+    transition: 0.40s!important;
+}
+
+.back-green{
+    border: 1px solid  rgb(71 162 117)!important;
+    background: white!important;
+    color: rgb(71 162 117)!important;
+    cursor: pointer;
+    
+}
+.check-white{
+    border: 1px solid  white!important;
+    background: rgb(71 162 117)!important;
+    color: white!important;
+    cursor: pointer;
+}
+
+.back-green:hover{
+    border: 1px solid  white!important;
+    background: rgb(71 162 117)!important;
+    color: white!important;
+}
+.check-white:hover{
+    border: 1px solid  rgb(71 162 117)!important;
+    background: white!important;
+    color: rgb(71 162 117)!important;
+}
+.cart-container {
+    padding: 16px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .cart-item-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-checkbox {
+    margin-right: 16px;
+  }
+  
+  .cart-item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+    margin-right: 16px;
+  }
+  .cart-item-detail{
+    margin-right: 16px;
+  }
+  
+  .cart-item-title {
+    font-weight: bold;
+  }
+  
+  .cart-item-size {
+    color: #757575;
+  }
+  
+  .cart-item-quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  
+  .quantity {
+    margin: 0 8px;
+  }
+  
+  .cart-item-price {
+    font-weight: bold;
+    margin-right: 16px;
+  }
+  
+  .cart-item-total {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-close {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .button-back {
+    background-color: #47a275;
+    color: white;
+  }
+  
+  .button-checkout {
+    background-color: #47a275;
+    color: white;
+  }
+  

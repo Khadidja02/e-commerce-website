@@ -1,0 +1,35 @@
+.activate-div{
+    margin-top: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title-activate{
+    
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.12em;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(45, 94, 69);
+
+}
+
+.butn-activate{
+    padding: 10px 30px;
+    border-radius: 25px;
+    letter-spacing: 0.15em;
+    color: white ;
+    background-color: rgb(71 162 117);
+    border: 1px solid #e0e0e0 ;
+    transition: 0.30s;
+    font-weight: 600;
+    
+}
+.butn-activate:hover{
+    color: rgb(71 162 117);
+    background-color: white;
+    border: 1px solid rgb(71 162 117) ;
+}

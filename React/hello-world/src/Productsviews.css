@@ -1,0 +1,301 @@
+.imageviews{
+   width: 45%;
+   height:650px;
+    
+}
+.image1views{
+    
+    width: 100%;
+   height: 550px;
+   
+}
+.parentViews1{
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.descripviews{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    font-family: 'Quicksand',sans-serif;
+}
+.title-productviews{
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.span-product{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 9.5px;
+    padding-right:9.5px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    
+    
+    color: rgb(71 162 117);
+}
+.color-products{
+    margin-top: 20px;
+}
+.pool-colors{
+    display: flex;
+    margin-top: 12px;
+    flex-direction: row;
+}
+.Borderofcolors{
+    width: 75px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 9999px;
+    border-width: 2px;
+    margin-right: 20px;
+}
+.bckgrd-product1{
+    background-color: #E7CEA6;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    width: 67px;
+    height: 36px;
+}
+.bckgrd-product2{
+    background-color: #0A6EBD;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    width: 67px;
+    height: 36px;
+}
+.bckgrd-product3{
+    background-color: #5A96E3;
+    border-radius: 9999px;
+    width: 67px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+}
+.sizeprod{
+    
+    border: 1px solid rgb(203 213 225);
+    border-radius: 1rem;
+    width: 63px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.5rem;   
+}
+.labelproduct{
+    font-size: 18px;
+}
+.butnsproduct{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.qty-prod{
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 13px;
+}
+.bordrbutn{
+    padding: 14px;
+    width:250px;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+    height: 32px;
+    
+    font-family: 'Quicksand';
+}
+.firstdiV{
+    display: flex;
+    
+    width: 250px;
+}
+.essentialdiV{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnprod{
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    border: 1px solid #9a9b9c;
+    background-color: white;
+    font-size: 19px;
+}
+.btnaddprod{
+    width: 70%;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    
+    letter-spacing: 0.09rem;
+    border-radius: 18px;
+    border: 1px solid rgb(41, 122, 87);
+    background-color: rgb(41, 122, 87);
+    color: white;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.40s;
+}
+.butnviews{
+    background-color: #5A96E3;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 9999px;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+}
+.addbtn{
+    margin-right: 40px;
+    width:50%;
+   
+}
+.price-prdou{
+    margin-top: 20px;
+}
+
+.pparent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+.prodduscrip{
+    
+    margin-top: 15px;
+    width: 40%;
+   
+    font-family:'Quicksand',sans-serif ;
+}
+.paragrprod{
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #374151;
+}
+.listprodview{
+    list-style-type: disc;
+}
+.titleprodview{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+.iconviewprod{
+    display:grid;
+    gap:0.75rem;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    margin-left: 65px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    width:80%
+}
+.iconviewchilds1{
+    border-radius: 1rem;
+    background-color: rgb(240 249 255);
+    padding-left: 20px;
+    font-family: 'Quicksand';
+    
+}
+.iconviewchilds2{
+    border-radius: 1rem;
+    background-color: rgb(254 242 242);
+    padding-left: 20px;
+    font-family: 'Quicksand';
+}
+.iconviewchilds3{
+    border-radius: 1rem;
+    background-color: rgb(240 253 244);
+    padding-left: 20px;
+    font-family: 'Quicksand';
+}
+.iconviewchilds4{
+    background-color: rgb(255 251 235);
+    padding-left: 20px;
+    border-radius: 1rem;
+    font-family: 'Quicksand';
+}
+.iconfontsviewprod{
+    font-size:30px;
+    margin-bottom: 0px;
+}
+.pragrphicoprod{
+   margin-bottom: 0px;
+}
+.titleiconprod{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.descripiconprod{
+    font-size: 14px;
+    color: rgb(100 116 139);
+    margin-top: 0px;
+}
+
+
+@media (max-width:853px) {
+    .parentViews1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imageviews{
+        margin-top: 15px;
+        width:50%;
+        height: 400px;
+    }
+    .image1views{
+        height: 380px;
+    }
+    .descripviews{
+        margin-top: 0px;
+        width: 100%;
+    }
+}

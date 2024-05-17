@@ -1,0 +1,147 @@
+.parent-Contact{
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin-bottom: 50px;
+    
+}
+.text-contact{
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.10rem;
+    margin-top: 15px!important;
+    font-size: 30px;
+}
+.child1-contact{
+    background: url('./compo/images/contactus.png');
+    background-position: 59.41% 50%;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-right:20px;
+    display: block;
+    
+}
+.child2-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(71 162 117) ;
+    
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 104px;
+    color: white;
+    font-family: "Josefin Sans",sans-serif;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px 20px rgba(0,0,0,0.15);
+}
+.form-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    width: auto;
+    
+    
+}
+.email-contact{
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    margin-left: 20px;
+    
+}
+.name-contact{
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    margin-left: 20px;
+    
+    
+}
+.adress-contact{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    margin-left: 20px;
+    margin-right: 56px;
+} 
+.message-contact{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 56px;
+    display: flex;
+    flex-direction:column;
+}
+.submit-child-contact{
+    margin-top: 10px;
+    border: 1px solid rgb(71 162 117);
+    border-radius: 30px;
+    display: flex;
+    align-items:flex-start;
+    background: white;
+    color: rgb(71 162 117);
+    font-weight: 600;
+    padding:10px 15px;
+    margin-bottom: 25px;
+    font-size: 19px;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.09rem;
+    transition: 0.25s;
+    width:auto;
+    
+}
+.submit-child-contact:hover{
+    background-color: rgb(71 162 117);
+    color: white;
+    border-color:white ;
+}
+.child-contact{
+    border-top-width:0px ;
+    border-top-style:none ;
+    stroke: none;
+    border-left-width:0px ;
+    border-left-style:none ;
+    border-right-width:0px ;
+    border-right-style:none ;
+    border-color: #fff;
+    border-bottom-width:2px ;
+    border-bottom-style: solid ;
+    padding: 10px 12px;
+    background-color: transparent;
+    margin-bottom: 7px;
+    outline: none;
+}
+.child-contact:focus {
+    box-shadow: 0 0 0 2px rgb(51, 122, 87); /* Example of a custom focus style */
+}
+::placeholder{
+    color: #dffdea;
+    font-weight: 500;
+    font-family:"Quicksand" ,sans-serif ;
+    
+}
+.label-contact{
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family:"Quicksand" ,sans-serif ;
+    letter-spacing: 0.10rem;
+    font-weight: 600;
+    
+}
+@media (max-width:742px){
+    .child1-contact{
+        display: none;
+    }
+    .parent-Contact{
+        display: flex;
+        justify-content: center;
+    }
+    .child2-contact{
+        width: 80%;
+        margin-left: 5%;
+        margin-right: 0px;
+    }
+}

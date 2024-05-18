@@ -1,4 +1,11 @@
 {
+  
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Khadidja02.github.io/my-first-projects",
+  
+  
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^1.5.0",

@@ -41,14 +41,14 @@ function Featured() {
 
     return (
         <div className="items1">
-            <p className="popular">Categories De Nos Produits</p>
-            <div className="line-titles"></div>
+            <p className="popular">Categories of Our Products</p>
+            <div className="line-titles mb-3"></div>
             <div className="items1-parent">
                 <div className="items1-child1">
                     {categories.map((category, index) => (
                         <div className="itemsN child2" key={index}>
                             <img src={`${BACKEND}${category.image}`} alt="t-shirt" className="images image-product1" />
-                            <h4>{category.name}</h4>
+                            <h3 className="mt-3">{category.name}</h3>
                         </div>
                     ))}
                 </div>

@@ -1,10 +1,8 @@
 import React,{useState, useEffect} from 'react'
 import axios from 'axios'
-
+import Features from './Features'
 import './Productsviews.css'
-import {FaShippingFast} from "react-icons/fa"
-import {TbTruckReturn} from "react-icons/tb"
-import {BsFillCreditCardFill,BsHeadphones} from "react-icons/bs"
+
 import AddToCartButton from './AddToCartButton'
 import { useParams } from 'react-router-dom';
 
@@ -82,29 +80,7 @@ function ProductViews() {
 
           </div>
            
-             <div className='iconviewprod'>
-                <div className='iconviewchilds1'>
-                    <p className='pragrphicoprod'><FaShippingFast className='iconfontsviewprod' /></p>
-                    <p className='titleiconprod'>Free shipping</p>
-                    <p className='descripiconprod'>On orders over $50.00</p>
-                  </div>
-                <div className='iconviewchilds2'>
-                  <p className='pragrphicoprod'><TbTruckReturn className='iconfontsviewprod' /></p>
-                  <p className='titleiconprod'>Very easy to return</p>
-                  <p className='descripiconprod'>Just phone number.</p>
-                </div>
-                <div className='iconviewchilds3'>
-                <p className='pragrphicoprod'><BsFillCreditCardFill className='iconfontsviewprod' /></p>
-                <p className='titleiconprod'>Flexible Payment</p>
-                <p className='descripiconprod'>Pay with Multiple Credit Cards</p>
-                </div>
-                <div className='iconviewchilds4'>
-                <p className='pragrphicoprod'><BsHeadphones className='iconfontsviewprod' /></p>
-                <p className='titleiconprod'>Online Support</p>
-                <p className='descripiconprod'>24 hours a day, 7 days a week</p>
-                </div>
-
-             </div>
+             <Features/>
         </div>
 
       </>

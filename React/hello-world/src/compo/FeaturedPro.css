@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 70px;
-    margin-bottom: 170px;
+    margin-bottom:50px;
 }
 .items1-parent{
     display: flex;
@@ -84,7 +84,7 @@
     letter-spacing: 0.15em;
     font-size: 42px;
     line-height: 49px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 .products{
     font-family: 'Quicksand', sans-serif;

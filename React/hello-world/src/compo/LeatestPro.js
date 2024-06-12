@@ -47,12 +47,12 @@ function Leatest() {
 
   return (
     <div className="parent-pro">
-      <p className="popular">Nos Derniers Produits</p>
+      <p className="popular">Our Latest Products</p>
       <div className="line-titles"></div>
       <div className="parent2-pro">
         {Array.isArray(products)?
         products.map((product, index) => (
-          <div className="parent3-pro" key={index}>
+          <div className="parent3-pro " key={index}>
             <div className="child1-pro " 
             onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave} >
@@ -65,18 +65,18 @@ function Leatest() {
               
                       
                         <Link className="link-product" to={`/Productviews/${product.slug}`}>
-                          <button className="buuutn"><RiEyeLine className="view-icon" />Voir Details</button></Link>
+                          <button className="buuutn"><RiEyeLine className="view-icon" />View Details</button></Link>
                 )}
             </div>
             
             <h4 className="produits">{product.title}</h4>
-            <span className="stext">${product.price}</span>
+            <span className="stext mb-4">${product.price}</span>
           </div>
           
         )):console.log(error)}
       </div>
       
-        <Link to="/Products" ><button className="buutn">Voir Plus</button></Link>
+        <Link to="/Products" ><button className="buutn">See More</button></Link>
       
       
     </div>
